@@ -1,12 +1,18 @@
 exports[`test renders correctly 1`] = `
 <div
-  className="orders">
+  className="orders"
+  style={
+    Object {
+      "textAlign": "center"
+    }
+  }>
   <h1
     className="orders-title"
     style={
       Object {
+        "borderBottom": "3px dotted black",
         "fontFamily": "arial",
-        "marginTop": 30,
+        "padding": "20px 0px 30px",
         "textAlign": "center"
       }
     }>
@@ -14,7 +20,7 @@ exports[`test renders correctly 1`] = `
   </h1>
   <div
     className="order"
-    onClick={[Function bound expand]}
+    onClick={[Function bound onClick]}
     style={
       Object {
         "border": "1px solid black",
@@ -22,8 +28,7 @@ exports[`test renders correctly 1`] = `
         "cursor": "pointer",
         "display": "inline-block",
         "fontFamily": "arial",
-        "height": 50,
-        "margin": "2%",
+        "margin": "2.5%",
         "padding": 20,
         "textAlign": "center",
         "width": "40%"
@@ -37,13 +42,23 @@ exports[`test renders correctly 1`] = `
       Payment Status: 
       Paid 3748 EUR
     </div>
-    <button>
-      Click to Expand
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
     </button>
   </div>
   <div
     className="order"
-    onClick={[Function bound expand]}
+    onClick={[Function bound onClick]}
     style={
       Object {
         "border": "1px solid black",
@@ -51,8 +66,7 @@ exports[`test renders correctly 1`] = `
         "cursor": "pointer",
         "display": "inline-block",
         "fontFamily": "arial",
-        "height": 50,
-        "margin": "2%",
+        "margin": "2.5%",
         "padding": 20,
         "textAlign": "center",
         "width": "40%"
@@ -66,13 +80,23 @@ exports[`test renders correctly 1`] = `
       Payment Status: 
       Paid 3748 EUR
     </div>
-    <button>
-      Click to Expand
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
     </button>
   </div>
   <div
     className="order"
-    onClick={[Function bound expand]}
+    onClick={[Function bound onClick]}
     style={
       Object {
         "border": "1px solid black",
@@ -80,8 +104,7 @@ exports[`test renders correctly 1`] = `
         "cursor": "pointer",
         "display": "inline-block",
         "fontFamily": "arial",
-        "height": 50,
-        "margin": "2%",
+        "margin": "2.5%",
         "padding": 20,
         "textAlign": "center",
         "width": "40%"
@@ -95,13 +118,23 @@ exports[`test renders correctly 1`] = `
       Payment Status: 
       Paid 3748 EUR
     </div>
-    <button>
-      Click to Expand
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
     </button>
   </div>
   <div
     className="order"
-    onClick={[Function bound expand]}
+    onClick={[Function bound onClick]}
     style={
       Object {
         "border": "1px solid black",
@@ -109,8 +142,7 @@ exports[`test renders correctly 1`] = `
         "cursor": "pointer",
         "display": "inline-block",
         "fontFamily": "arial",
-        "height": 50,
-        "margin": "2%",
+        "margin": "2.5%",
         "padding": 20,
         "textAlign": "center",
         "width": "40%"
@@ -124,8 +156,18 @@ exports[`test renders correctly 1`] = `
       Payment Status: 
       Paid 3748 EUR
     </div>
-    <button>
-      Click to Expand
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
     </button>
   </div>
 </div>
