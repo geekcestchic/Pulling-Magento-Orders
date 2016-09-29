@@ -1,0 +1,236 @@
+exports[`test demonstrates toggle behavior 1`] = `
+<div
+  className="order"
+  onClick={[Function bound onClick]}
+  style={
+    Object {
+      "border": "1px solid black",
+      "borderRadius": 10,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "fontFamily": "arial",
+      "margin": "2.5%",
+      "padding": 20,
+      "textAlign": "center",
+      "width": "40%"
+    }
+  }>
+  <div>
+    Order For - 
+    Adham Bard
+  </div>
+  <div>
+    Payment Status: 
+    Paid 3748 EUR
+  </div>
+  <div>
+    <div
+      className="modale-background"
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "fontFamily": "arial",
+          "height": "100%",
+          "left": 0,
+          "opacity": 0.5,
+          "position": "fixed",
+          "top": 0,
+          "width": "100%"
+        }
+      } />
+    <div
+      className="detail-modal"
+      style={
+        Object {
+          "background": "white",
+          "border": "2px solid black",
+          "boxSizing": "border-box",
+          "height": 200,
+          "left": "50%",
+          "margin": "-100px 0 0 -200px",
+          "padding": 30,
+          "position": "fixed",
+          "textAlign": "left",
+          "top": "50%",
+          "width": 400,
+          "zIndex": 10
+        }
+      }>
+      <div
+        className="close"
+        style={
+          Object {
+            "height": 40,
+            "paddingTop": 10,
+            "position": "absolute",
+            "right": 0,
+            "textAlign": "center",
+            "top": 0,
+            "width": 40
+          }
+        }>
+        X
+      </div>
+      <div>
+        Last updated: 
+        2015-10-26 15:35:09
+      </div>
+      <div>
+        Customer email: 
+        1444656004@example.com
+      </div>
+      <div>
+        Order ID: 
+        1
+      </div>
+      <div>
+        Postcode: 
+        80801
+      </div>
+      <div>
+        Weight: 
+        3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test renders correctly 1`] = `
+<div
+  className="order"
+  onClick={[Function bound onClick]}
+  style={
+    Object {
+      "border": "1px solid black",
+      "borderRadius": 10,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "fontFamily": "arial",
+      "margin": "2.5%",
+      "padding": 20,
+      "textAlign": "center",
+      "width": "40%"
+    }
+  }>
+  <div>
+    Order For - 
+    Adham Bard
+  </div>
+  <div>
+    Payment Status: 
+    Paid 3748 EUR
+  </div>
+  <button
+    style={
+      Object {
+        "background": "black",
+        "border": "none",
+        "borderRadius": 0,
+        "color": "white",
+        "marginTop": 5,
+        "padding": "5px 10px"
+      }
+    }>
+    Click for detail
+  </button>
+</div>
+`;
+
+exports[`test responds to a click correctly 1`] = `
+<div
+  className="order"
+  onClick={[Function bound onClick]}
+  style={
+    Object {
+      "border": "1px solid black",
+      "borderRadius": 10,
+      "cursor": "pointer",
+      "display": "inline-block",
+      "fontFamily": "arial",
+      "margin": "2.5%",
+      "padding": 20,
+      "textAlign": "center",
+      "width": "40%"
+    }
+  }>
+  <div>
+    Order For - 
+    Adham Bard
+  </div>
+  <div>
+    Payment Status: 
+    Paid 3748 EUR
+  </div>
+  <div>
+    <div
+      className="modale-background"
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "fontFamily": "arial",
+          "height": "100%",
+          "left": 0,
+          "opacity": 0.5,
+          "position": "fixed",
+          "top": 0,
+          "width": "100%"
+        }
+      } />
+    <div
+      className="detail-modal"
+      style={
+        Object {
+          "background": "white",
+          "border": "2px solid black",
+          "boxSizing": "border-box",
+          "height": 200,
+          "left": "50%",
+          "margin": "-100px 0 0 -200px",
+          "padding": 30,
+          "position": "fixed",
+          "textAlign": "left",
+          "top": "50%",
+          "width": 400,
+          "zIndex": 10
+        }
+      }>
+      <div
+        className="close"
+        style={
+          Object {
+            "height": 40,
+            "paddingTop": 10,
+            "position": "absolute",
+            "right": 0,
+            "textAlign": "center",
+            "top": 0,
+            "width": 40
+          }
+        }>
+        X
+      </div>
+      <div>
+        Last updated: 
+        2015-10-26 15:35:09
+      </div>
+      <div>
+        Customer email: 
+        1444656004@example.com
+      </div>
+      <div>
+        Order ID: 
+        1
+      </div>
+      <div>
+        Postcode: 
+        80801
+      </div>
+      <div>
+        Weight: 
+        3
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -8,7 +8,18 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+            {
+                loader: "babel-loader",
+                include: [
+                    path.resolve(__dirname, "lib"),
+                ],
+                // Only run `.js` and `.jsx` files through Babel
+                test: /\.jsx?$/,
+                query: {
+                    plugins: ['transform-runtime'],
+                    presets: ['es2015', 'stage-0', 'react'],
+                }
+            },
             { test: /\.css$/, loader: "style-loader!css-loader" }
         ]
     }

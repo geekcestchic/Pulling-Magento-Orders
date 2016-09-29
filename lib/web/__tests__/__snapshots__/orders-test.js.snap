@@ -1,0 +1,174 @@
+exports[`test renders correctly 1`] = `
+<div
+  className="orders"
+  style={
+    Object {
+      "textAlign": "center"
+    }
+  }>
+  <h1
+    className="orders-title"
+    style={
+      Object {
+        "borderBottom": "3px dotted black",
+        "fontFamily": "arial",
+        "padding": "20px 0px 30px",
+        "textAlign": "center"
+      }
+    }>
+    Orders Dashboard
+  </h1>
+  <div
+    className="order"
+    onClick={[Function bound onClick]}
+    style={
+      Object {
+        "border": "1px solid black",
+        "borderRadius": 10,
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "arial",
+        "margin": "2.5%",
+        "padding": 20,
+        "textAlign": "center",
+        "width": "40%"
+      }
+    }>
+    <div>
+      Order For - 
+      Adham Bard
+    </div>
+    <div>
+      Payment Status: 
+      Paid 3748 EUR
+    </div>
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
+    </button>
+  </div>
+  <div
+    className="order"
+    onClick={[Function bound onClick]}
+    style={
+      Object {
+        "border": "1px solid black",
+        "borderRadius": 10,
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "arial",
+        "margin": "2.5%",
+        "padding": 20,
+        "textAlign": "center",
+        "width": "40%"
+      }
+    }>
+    <div>
+      Order For - 
+      Adham Bard
+    </div>
+    <div>
+      Payment Status: 
+      Paid 3748 EUR
+    </div>
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
+    </button>
+  </div>
+  <div
+    className="order"
+    onClick={[Function bound onClick]}
+    style={
+      Object {
+        "border": "1px solid black",
+        "borderRadius": 10,
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "arial",
+        "margin": "2.5%",
+        "padding": 20,
+        "textAlign": "center",
+        "width": "40%"
+      }
+    }>
+    <div>
+      Order For - 
+      Adham Bard
+    </div>
+    <div>
+      Payment Status: 
+      Paid 3748 EUR
+    </div>
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
+    </button>
+  </div>
+  <div
+    className="order"
+    onClick={[Function bound onClick]}
+    style={
+      Object {
+        "border": "1px solid black",
+        "borderRadius": 10,
+        "cursor": "pointer",
+        "display": "inline-block",
+        "fontFamily": "arial",
+        "margin": "2.5%",
+        "padding": 20,
+        "textAlign": "center",
+        "width": "40%"
+      }
+    }>
+    <div>
+      Order For - 
+      Adham Bard
+    </div>
+    <div>
+      Payment Status: 
+      Paid 3748 EUR
+    </div>
+    <button
+      style={
+        Object {
+          "background": "black",
+          "border": "none",
+          "borderRadius": 0,
+          "color": "white",
+          "marginTop": 5,
+          "padding": "5px 10px"
+        }
+      }>
+      Click for detail
+    </button>
+  </div>
+</div>
+`;

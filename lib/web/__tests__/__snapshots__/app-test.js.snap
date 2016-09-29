@@ -1,0 +1,8 @@
+exports[`test renders correctly 1`] = `
+<div
+  className="content-wrapper">
+  <div>
+    Loading Orders...
+  </div>
+</div>
+`;
